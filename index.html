@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <div class="overlay overlay-lg">
+          <img src="./img/shapes/square.png" class="shape square" alt="" />
+          <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle1"
+            alt=""
+          />
+          <img
+            src="./img/shapes/half-circle.png"
+            class="shape half-circle2"
+            alt=""
+          />
+          <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave1" alt="" />
+          <img src="./img/shapes/wave.png" class="shape wave wave2" alt="" />
+          <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+          <img src="./img/shapes/letters.png" class="letters" alt="" />
+          <img src="./img/shapes/points1.png" class="points points1" alt="" />
+        </div>
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#resume">Resume</a>
+                </li>
+                <li>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#hireme" class="active">Hire me</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Emmanuel Bright</h1>
+              <p class="text">
+                Hello, I'm a young and vibrant Electrical/Electronics Engineering Technologist with significant years of experience in electrical installions, and Web design development.
+              </p>
+              <a href="#" class=""></a>
+            </div>
+
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img id="image" src="./img/person5.jpg" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="What I Do">Services</h3>
+            <p class="text">
+              Electrical installations of buildings and Software development
+            </p>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UI/UX">
+                <div class="card-content z-index">
+                  <img src="./img/design-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Design</h3><br><br>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Code">
+                <div class="card-content z-index">
+                  <img src="./img/code-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Web Development</h3><br><br>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="App">
+                <div class="card-content z-index">
+                  <img src="./img/app-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">App Development</h3><br><br>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+          <div class="overlay overlay-sm">
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle1"
+              alt=""
+            />
+            <img
+              src="./img/shapes/half-circle.png"
+              class="shape half-circle2"
+              alt=""
+            />
+            <img src="./img/shapes/square.png" class="shape square" alt="" />
+            <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+            <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+            <img
+              src="./img/shapes/triangle.png"
+              class="shape triangle"
+              alt=""
+            />
+            <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".webdesign">Web Design</button>
+              <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+              <button class="filter-btn" data-filter=".appdev">Mobile App</button>
+              <button class="filter-btn" data-filter=".electins">Electrical Installation</button>
+              <button class="filter-btn" data-filter=".mainrep">Maintenance And Repair</button>
+            <div class="more-folio">
+              <a href="#" class="btn">More Folio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                An Electrical Engineer and also A software developer
+              </p><br><br>
+                  <p>HTML5</p><br>
+                  <div class="container skill">
+                  <div class="skills html">90%
+                  </div>
+                </div><br>
+                <p>CSS3</p><br>
+                <div class="container skill">
+                <div class="skills css">80%
+                </div>
+              </div><br>
+              <p>JavaScript</p><br>
+              <div class="container skill">
+              <div class="skills js">30%
+              </div>
+            </div><br>
+            <p>jQuery</p><br>
+            <div class="container skill">
+            <div class="skills jquery">25%
+            </div>
+          </div><br>
+          <p>C#</p><br>
+          <div class="container skill">
+          <div class="skills c">15%
+          </div>
+        </div><br>
+        <p>REACT</p><br>
+        <div class="container skill">
+        <div class="skills react">10%
+        </div>
+      </div><br><br>
+              <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img id="image person" src="./img/person9.jpg" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="records">
+        <div class="overlay overlay-sm">
+          <img src="./img/shapes/square.png" alt="" class="shape square1" />
+          <img src="./img/shapes/square.png" alt="" class="shape square2" />
+          <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+          <img
+            src="./img/shapes/half-circle.png"
+            alt=""
+            class="shape half-circle"
+          />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+          <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+          <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+          <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+        </div>
+
+        <div class="container">
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="235">5</h2>
+              <h4 class="sub-title">Projects</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle active">
+              <h2 class="number" data-num="174">2</h2>
+              <h4 class="sub-title">Happy Clients</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="892">24Hrs</h2>
+              <h4 class="sub-title">Work Hour</h4>
+            </div>
+          </div>
+
+          <div class="wrap">
+            <div class="record-circle">
+              <h2 class="number" data-num="368">1</h2>
+              <h4 class="sub-title">Awards</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Last News">My blog</h3>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog1.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">March, 19 2021</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Camera.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog2.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">August, 02 2021</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Grapes.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/blog3.png" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">November, 12 2021</h5>
+                    <h5 class="blog-user"><i class="fas fa-user"></i>Admin</h5>
+                  </div>
+                  <h3 class="title-sm">This is a short title</h3>
+                  <p class="blog-text">
+                    Office cutleries.
+                  </p>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume section" id="resume">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="MY EXPERIENCES">Resume</h3>
+          </div>
+          <div class="myname">
+               <h2 style="color: brown;"><b>Joe Best Electronics, Maiduguri Borno State</b></h2> <br><br>
+               <p class="review-text"><b>Position:</b> Apprentice</p><br>
+               <p class="review-text"><b>Period:</b> February 2005 - June 2006</p><br>
+                  
+                  
+                    <li>Electronics Installation, Maintenance and Repair Technician,Electronic Equipment sales and purchases</li><br>
+                      
+                  <h2 style="color: brown;"><b>Brightway Electrical Works</b></h2><br><br>
+                  
+                    <p class="review-text">
+                      <b>Position:</b> Training/Freelance
+                    </p><br>
+                    <p><b>Period:</b> August 2014 Till Date</p><br>
+                    <li>Conducted electrical wiring and installations for residual buildings</li><br>
+                    <li>Detection and rectification of electrical faults</li><br>
+                    <li>Maintenance and installation of electric power equipment like switches and junction boxes in buildings</li><br>
+                    <li>Fault detection and repair of electronic gadgets</li><br>
+                    <h2 style="color: brown;"><b>Government Senior Islamic Secondary School, Bunkure Kano State</b></h2><br><br>
+                    <p><b>Position:</b> NYSC/Physics Tutor</p><br>
+                    <p><b>Period:</b> May 2018 - April 2019</p><br>
+                    <li>Constructed a well-planned lesson note for senior secondary class two in line with recommended syllabus</li><br>
+                    <li>Applied a student-centered approach of teaching for inquiry-based and cooperative learning and received commendation from the students</li><br>
+                    <li>Carried out routine assessment and practical for student to impact their understanding of physics thereby improving their performances by 40% within 6 months</li><br>
+                    <h2 style="color: brown;"><b>Ashaka Security Company, Benin city Edo State</b></h2><br><br>
+
+
+                    <p class="review-text">
+                      <b>Position:</b> Security Operative
+                    </p><br>
+                    <p><b>Period:</b> June 2019 - December 2020</p><br>
+                    <li>Ensuring the security of facility and equipment at Guinness warehouse, Benin city</li><br>
+                    <li>Enforcing safety measures and protocols on site</li><br>
+                    <li>Supervised non specialized activities in site such as equipment relocation and vehicle movement</li><br>
+                    <li>Enforced Covid19 safety protocols and hygiene</li><br>
+                    <h2 style="color: brown;"><b>XGO Finance Company, Ikeja Lagos State</b></h2><br><br>
+                    <p><b>Position:</b> Loan Collection Officer</p><br>
+                    <p><b>Period:</b> April - June</p><br>
+                    <li>Handling and receiving calls and messages from customers, informing them about their overdue loans</li><br>
+                    <h2 style="color: brown;"><b>HiiT PLC </b></h2><br><br>
+                    <P><b>Position:</b> Frontend Development Intern</P><br>
+                    <P><b>Period:</b> February till date</P><br>
+                    <li>Using HTML and CSS client-side scripting languages to create responsive websites for different devices</li><br>
+                    <li>Creating dynamic and reuseable code with vue.js thereby significantly reducing the time spent on writing frsh codes</li><br>
+                    <li>Consuming fakestore API for e-commerce websites built using REACT format</li><br>
+                    <li>Collaborating to modify codes and track code versions on Github in order to fix errors and keep our websites up to date</li><br>
+                    <h2 style="color: brown;"><b>Academic Qualification</b></h2><br><br>
+                    <li><b>Auchipolytechnic, Auchi Edo State 2015 - 2018</b></li><br>
+                    Electrical/Electronics Engineering Technology(Lower Credit)<br><br>
+                    <li><b>Jobberman Soft-skill Training 2021</b></li><br>
+                    Personal Effectiveness and Time Management, Effective Communication, Presentation and Story-telling, Business Etiquette and Workplace Ethics<br><br>
+                    <a href="#" class="btn small">Read more</a>
+          </div>
+
+            <div class="column-2 image">
+              <img src="" alt="" class="img-element" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery section" id="gallery">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="">My Gallery</h3>
+          </div>
+
+          <div class="blog-wrapper">
+            <div class="blog-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                alt=""
+                class="points points-sq"
+              />
+
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/person2.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">January, 19 2021</h5>
+                    <h5 class="blog-camera"><i class="fa fa-camera" aria-hidden="true"></i>Photo</h5>
+                  </div>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/person6.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">July, 26 2021</h5>
+                    <h5 class="blog-camera"><i class="fa fa-camera" aria-hidden="true"></i>Photo</h5>
+                  </div>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-wrap">
+              <div class="blog-card">
+                <div class="blog-image">
+                  <img src="./img/person3.jpg" alt="" />
+                </div>
+
+                <div class="blog-content">
+                  <div class="blog-info">
+                    <h5 class="blog-date">October, 02 2021</h5>
+                    <h5 class="blog-camera"><i class="fa fa-camera" aria-hidden="true"></i>Photo</h5>
+                  </div>
+                  <a href="#" class="btn small">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="section-header">
+              <h3 class="title">Contact Me</h3>
+              </div>
+              <div class="blog-wrapper">
+                <div class="blog-wrap">
+                  <img src="./img/shapes/points3.png" alt="points points-sq" />
+                  <div class="">
+                    <div class="">
+                      <img src="" alt="" />
+                    </div>
+                  <div class="">
+                    <div class="">
+                      <div style="font-size: 24px;">
+                        <i class="fas fa-phone fa-10x"></i>
+                     <h5 class="blog-user"><br>+2349132604327</h5>
+                    </div>
+                    </div><br>
+                    <a href="#" class=""></a>
+                  </div>
+                </div>
+                </div>
+                  <div class="blog-wrap">
+                    <img src="./img/shapes/points3.png" alt="points points-sq" />
+                    <div class="">
+                      <div class="">
+                        <img src="" alt="" />
+                      </div>
+                    <div class="">
+                      <div class="">
+                        <div style="font-size: 24px;">
+                          <i class="fas fa-envelope fa-10x"></i>
+                      
+                       <h5 style="text-transform: lowercase;" class="blog-user"><br>ghena.bright@gmail.com</h5>
+                        </div>
+                      </div><br>
+                      <a href="#" class="btn small">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                    <div  class="blog-wrap">
+                      <img src="./img/shapes/points3.png" alt="points points-sq" />
+                      <div class="">
+                        <div class="">
+                          <img src="" alt="" />
+                        </div>
+                        <div class="">
+                          <div class="">
+                            <div style="font-size: 24px;">
+                              <i class="fab fa-linkedin fa-10x"></i>
+                      <h5 class="blog-user">Linkedin</h5>
+                            </div>
+                          </div><br>
+                        <a href="#" class=""></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </div>
+      
+      </section>
+
+      <section class="hireme" id="hireme">
+        <div class="container">
+          <h3 class="title">Let's talk about a project</h3>
+          <p class="text">
+            We are going to build a Music App, a Calculator and a Slider
+          </p>
+          <a href="#" class="btn">Hire me</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              Software Developer 
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Services</a>
+              </li>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+              <li>
+                <a href="#gallery">Gallery</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm" >Services</h3>
+            <ul>
+              <li>
+                <a href="#">Web Design</a>
+              </li>
+              <li>
+                <a href="#">Web Dev</a>
+              </li>
+              <li>
+                <a href="#">App Design</a>
+              </li>
+            </ul>
+          </div>
+
+         <!-- <div class="grid-4-col footer-newstletter">-->
+          <!--  <h3 class="title-sm">Subscribe</h3>-->
+            <p class="text">
+              
+            </p>
+           <!-- <div class="footer-input-wrap">-->
+            <!--  <input type="email" class="footer-input" placeholder="Email" />-->
+            <!--  <a href="#" class="input-arrow">-->
+              <!--  <i class="fas fa-angle-right"></i>-->
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Resume Website Copyright&copy;2021  | Made by
+              <span>Bright</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://web.facebook.com/profile.php?id=100075198406149">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/brightie56/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bright-emmanuel-b62508197/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
